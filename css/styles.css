@@ -5,3 +5,7 @@ button {
 .form-control {
   width: 300px;
 }
+
+label {
+  margin-top: 10px;
+}

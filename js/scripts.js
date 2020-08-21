@@ -21,7 +21,7 @@ $(document).ready(function() {
 
     
       let output;
-      // userInput.forEach(function(number) {
+      // 
 
       if (userInput.length >= 4 && userInput[0] > 3) {
         output = "Roman numerals do not go that high."
@@ -39,9 +39,16 @@ $(document).ready(function() {
         output = "D";
       } else if (userInput === M) {
         output = "M";
-      } else if (userInput.length === 4) {
-      const userInput = userInput2.split("");
-      }
+      } else if (userInput.length = 2) {
+        const userInput2 = userInput.split("");
+        const output2 = []; 
+        userInput.forEach(function() {
+          if (userInput2[0] === I) {
+            output2.push("I");
+          } 
+      });
+    }
+    
     console.log(output);
     $("#result").text(output);
     
